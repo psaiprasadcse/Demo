@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Enroll Student</title>
+</head>
+    <body>
+<div id="Sign-In">
+<form name="enroll" method="post" action="enroll.php" >
+       
+ <center> <h3> ENTER THE BELOW DETAILS</h3></center>
+      <table border="1" align="center">
+               <tr>
+                    <td > GRNO</td>
+                    <td> <input type="text" name="g"/> </td>
+                </tr>
+                <tr>
+                    <td > Name</td>
+                    <td> <input type="text" name="n"/> </td>
+                </tr>
+                       
+           <tr> <td>  CLASS </td>
+                    <td>  <select name="c">
+                <option value="FE">FE</option>
+                <option value="SE">SE</option>
+                <option value="TE">TE</option>
+                <option value="BE">BE</option>
+                            </select> </td>
+                </tr>
+           <tr> <td>  Division</td>
+                    <td>  <select name="d">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                         </select> </td>
+                </tr>
+		<tr>
+                    <td >e-mail</td>
+                    <td> <input type="text" name="e"/> </td>
+                </tr>
+                <tr>
+                    <td >Mobile</td>
+                    <td> <input type="text" name="m"/> </td>
+                </tr>
+              
+                
+    <tr>
+    <td>
+      <input type="submit" value="SUBMIT" align="center"  > 
+    </td>
+<td><a href="home.php" > MENU </a > </td>
+    
+  </tr>
+
+       
+        </table>
+		</form>
+   </div>           
+                          
+                </body>
+</html>
